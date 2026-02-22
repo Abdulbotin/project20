@@ -7,7 +7,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-gray-100: oklch(96.7% 0.003 264.542);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -190,8 +192,17 @@
   .ml-\[8\%\] {
     margin-left: 8%;
   }
+  .ml-\[10\%\] {
+    margin-left: 10%;
+  }
   .ml-\[15\%\] {
     margin-left: 15%;
+  }
+  .ml-\[20\%\] {
+    margin-left: 20%;
+  }
+  .ml-\[30\%\] {
+    margin-left: 30%;
   }
   .ml-\[50px\] {
     margin-left: 50px;
@@ -201,6 +212,9 @@
   }
   .hidden {
     display: none;
+  }
+  .table {
+    display: table;
   }
   .h-\[45px\] {
     height: 45px;
@@ -213,6 +227,9 @@
   }
   .h-\[70px\] {
     height: 70px;
+  }
+  .h-\[100px\] {
+    height: 100px;
   }
   .h-\[200px\] {
     height: 200px;
@@ -232,8 +249,17 @@
   .h-screen {
     height: 100vh;
   }
+  .w-\[25\%\] {
+    width: 25%;
+  }
+  .w-\[35\%\] {
+    width: 35%;
+  }
   .w-\[50\%\] {
     width: 50%;
+  }
+  .w-\[50\] {
+    width: 50;
   }
   .w-\[60\%\] {
     width: 60%;
@@ -247,6 +273,15 @@
   .w-\[100\%\] {
     width: 100%;
   }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-\[150px\] {
+    width: 150px;
+  }
+  .w-\[190px\] {
+    width: 190px;
+  }
   .w-\[200px\] {
     width: 200px;
   }
@@ -259,8 +294,20 @@
   .w-\[245px\] {
     width: 245px;
   }
+  .w-\[250px\] {
+    width: 250px;
+  }
+  .w-\[300\] {
+    width: 300;
+  }
   .w-\[300px\] {
     width: 300px;
+  }
+  .w-\[330px\] {
+    width: 330px;
+  }
+  .w-\[344px\] {
+    width: 344px;
   }
   .w-\[345px\] {
     width: 345px;
@@ -271,11 +318,29 @@
   .w-\[420px\] {
     width: 420px;
   }
+  .w-\[444px\] {
+    width: 444px;
+  }
   .w-\[470px\] {
     width: 470px;
   }
+  .w-\[589\] {
+    width: 589;
+  }
+  .w-\[589ox\] {
+    width: 589ox;
+  }
+  .w-\[589px\] {
+    width: 589px;
+  }
   .w-full {
     width: 100%;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
   }
   .items-center {
     align-items: center;
@@ -295,11 +360,23 @@
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .gap-\[8\%\] {
     gap: 8%;
@@ -320,11 +397,18 @@
   .rounded-\[30px\] {
     border-radius: 30px;
   }
+  .rounded-\[50\%\] {
+    border-radius: 50%;
+  }
   .rounded-\[50px\] {
     border-radius: 50px;
   }
   .rounded-\[100px\] {
     border-radius: 100px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-1 {
     border-style: var(--tw-border-style);
@@ -336,11 +420,20 @@
   .border-gray-100 {
     border-color: var(--color-gray-100);
   }
+  .border-gray-200 {
+    border-color: var(--color-gray-200);
+  }
+  .bg-\[\#000000\] {
+    background-color: #000000;
+  }
   .bg-\[\#0000007a\] {
     background-color: #0000007a;
   }
   .bg-\[\#9B6D44\] {
     background-color: #9B6D44;
+  }
+  .bg-\[\#00000089\] {
+    background-color: #00000089;
   }
   .bg-\[\#55371D66\] {
     background-color: #55371D66;
@@ -351,14 +444,47 @@
   .bg-\[\#212121\] {
     background-color: #212121;
   }
+  .bg-\[\#E1E0FC\] {
+    background-color: #E1E0FC;
+  }
+  .bg-\[\#ECEBFE\] {
+    background-color: #ECEBFE;
+  }
+  .bg-\[b\] {
+    background-color: b;
+  }
+  .bg-\[bl\] {
+    background-color: bl;
+  }
+  .bg-\[blac\] {
+    background-color: blac;
+  }
+  .bg-\[black\] {
+    background-color: black;
+  }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
   .bg-black {
     background-color: var(--color-black);
   }
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\/\'\)\] {
+    background-image: url('/');
+  }
+  .bg-\[url\(\'\/\\src\\img\\img3\.png\'\)\] {
+    background-image: url('/\src\img\img3.png');
+  }
   .bg-\[url\(\'\/src\/img\/img1\.png\'\)\] {
     background-image: url('/src/img/img1.png');
+  }
+  .bg-\[url\(\'\/src\/img\/img3\.png\'\)\] {
+    background-image: url('/src/img/img3.png');
+  }
+  .bg-\[url\(\'\/src\\img\\img3\.png\'\)\] {
+    background-image: url('/src\img\img3.png');
   }
   .bg-contain {
     background-size: contain;
@@ -408,6 +534,9 @@
   .pl-\[15\%\] {
     padding-left: 15%;
   }
+  .pl-\[15px\] {
+    padding-left: 15px;
+  }
   .pl-\[20\%\] {
     padding-left: 20%;
   }
@@ -422,6 +551,9 @@
   }
   .pl-\[63px\] {
     padding-left: 63px;
+  }
+  .pl-\[80px\] {
+    padding-left: 80px;
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -452,9 +584,21 @@
   .text-white {
     color: var(--color-white);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
+  }
+  .lg\:m-auto {
+    @media (width >= 64rem) {
+      margin: auto;
+    }
   }
   .lg\:ml-\[0\] {
     @media (width >= 64rem) {
@@ -501,6 +645,16 @@
       width: 580px;
     }
   }
+  .lg\:items-center {
+    @media (width >= 64rem) {
+      align-items: center;
+    }
+  }
+  .lg\:justify-between {
+    @media (width >= 64rem) {
+      justify-content: space-between;
+    }
+  }
   .lg\:space-y-0 {
     @media (width >= 64rem) {
       :where(& > :not(:last-child)) {
@@ -535,12 +689,18 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-space-y-reverse: 0;
       --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
     }
   }
 }

@@ -201,8 +201,17 @@
   .ml-\[20\%\] {
     margin-left: 20%;
   }
+  .ml-\[25\%\] {
+    margin-left: 25%;
+  }
   .ml-\[30\%\] {
     margin-left: 30%;
+  }
+  .ml-\[33\%\] {
+    margin-left: 33%;
+  }
+  .ml-\[35\%\] {
+    margin-left: 35%;
   }
   .ml-\[50px\] {
     margin-left: 50px;
@@ -215,6 +224,9 @@
   }
   .table {
     display: table;
+  }
+  .h-\[10px\] {
+    height: 10px;
   }
   .h-\[45px\] {
     height: 45px;
@@ -230,6 +242,12 @@
   }
   .h-\[100px\] {
     height: 100px;
+  }
+  .h-\[144\] {
+    height: 144;
+  }
+  .h-\[144px\] {
+    height: 144px;
   }
   .h-\[200px\] {
     height: 200px;
@@ -252,6 +270,9 @@
   .w-\[25\%\] {
     width: 25%;
   }
+  .w-\[30px\] {
+    width: 30px;
+  }
   .w-\[35\%\] {
     width: 35%;
   }
@@ -272,6 +293,9 @@
   }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[100\] {
+    width: 100;
   }
   .w-\[100px\] {
     width: 100px;
@@ -303,6 +327,12 @@
   .w-\[300px\] {
     width: 300px;
   }
+  .w-\[324\] {
+    width: 324;
+  }
+  .w-\[324px\] {
+    width: 324px;
+  }
   .w-\[330px\] {
     width: 330px;
   }
@@ -314,6 +344,15 @@
   }
   .w-\[350px\] {
     width: 350px;
+  }
+  .w-\[370px\] {
+    width: 370px;
+  }
+  .w-\[390px\] {
+    width: 390px;
+  }
+  .w-\[400px\] {
+    width: 400px;
   }
   .w-\[420px\] {
     width: 420px;
@@ -332,6 +371,15 @@
   }
   .w-\[589px\] {
     width: 589px;
+  }
+  .w-\[600px\] {
+    width: 600px;
+  }
+  .w-\[644px\] {
+    width: 644px;
+  }
+  .w-\[2000\] {
+    width: 2000;
   }
   .w-full {
     width: 100%;
@@ -393,6 +441,9 @@
   }
   .rounded-\[28px\] {
     border-radius: 28px;
+  }
+  .rounded-\[30\] {
+    border-radius: 30;
   }
   .rounded-\[30px\] {
     border-radius: 30px;
@@ -525,6 +576,9 @@
   .pl-5 {
     padding-left: calc(var(--spacing) * 5);
   }
+  .pl-\[5px\] {
+    padding-left: 5px;
+  }
   .pl-\[8\%\] {
     padding-left: 8%;
   }
@@ -542,6 +596,9 @@
   }
   .pl-\[20px\] {
     padding-left: 20px;
+  }
+  .pl-\[30\%\] {
+    padding-left: 30%;
   }
   .pl-\[30px\] {
     padding-left: 30px;
@@ -625,9 +682,19 @@
       width: 30%;
     }
   }
+  .lg\:w-\[60\%\] {
+    @media (width >= 64rem) {
+      width: 60%;
+    }
+  }
   .lg\:w-\[80\%\] {
     @media (width >= 64rem) {
       width: 80%;
+    }
+  }
+  .lg\:w-\[90\%\] {
+    @media (width >= 64rem) {
+      width: 90%;
     }
   }
   .lg\:w-\[470px\] {
